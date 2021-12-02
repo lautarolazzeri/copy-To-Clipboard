@@ -7,4 +7,9 @@ function copyText(){
     document.getElementById("notification").style.opacity = "0";
 
     },1000)
+
+    var text = document.getElementById("notification");
+    text.innerHTML = "Text Copied!";
+    text.style.fontSize = "22px";
+    text.style.color = "white";
 }
